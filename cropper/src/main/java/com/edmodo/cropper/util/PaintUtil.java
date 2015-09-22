@@ -51,6 +51,7 @@ public class PaintUtil {
         borderPaint.setColor(Color.parseColor(SEMI_TRANSPARENT));
         borderPaint.setStrokeWidth(lineThicknessPx);
         borderPaint.setStyle(Paint.Style.STROKE);
+        borderPaint.setAntiAlias(true);
 
         return borderPaint;
     }
@@ -80,6 +81,7 @@ public class PaintUtil {
 
         final Paint paint = new Paint();
         paint.setColor(Color.parseColor(DEFAULT_BACKGROUND_COLOR_ID));
+        paint.setAntiAlias(true);
 
         return paint;
     }

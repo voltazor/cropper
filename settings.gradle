@@ -1,2 +1,1 @@
-include 'cropper'
-include 'CropperSample'
+include ':cropper', ':CropperSample'
